@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="484" viewBox="0 0 820 484" role="img" aria-label="Authentication flow">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#526383"/></marker></defs>
+<rect x="1" y="1" width="818" height="482" rx="20" fill="#f5f8ff" stroke="#dce4f4"/>
+<g font-family="system-ui, sans-serif" text-anchor="middle" fill="#182650"><text x="410" y="42" font-size="24" font-weight="700">Authentication flow</text>
+<path d="M242 97H308" fill="none" stroke="#526383" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M512 97H578" fill="none" stroke="#526383" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M680 120V164" fill="none" stroke="#526383" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M578 187H512" fill="none" stroke="#526383" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M308 187H242" fill="none" stroke="#526383" stroke-width="2" marker-end="url(#arrow)"/><text x="274" y="177" font-size="13">Invalid</text>
+<path d="M410 210V254" fill="none" stroke="#526383" stroke-width="2" marker-end="url(#arrow)"/><text x="435" y="237" font-size="13">Valid</text>
+<path d="M410 300V334" fill="none" stroke="#526383" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M410 380V414" fill="none" stroke="#526383" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="38" y="74" width="204" height="46" rx="10" fill="#d9e7ff"/><text x="140" y="103" font-size="16" font-weight="650">Register</text>
+<rect x="308" y="74" width="204" height="46" rx="10" fill="#ffe2bf"/><text x="410" y="103" font-size="16" font-weight="650">Hash password</text>
+<rect x="578" y="74" width="204" height="46" rx="10" fill="#ffe2bf"/><text x="680" y="103" font-size="16" font-weight="650">Store hash in MySQL</text>
+<rect x="578" y="164" width="204" height="46" rx="10" fill="#d9e7ff"/><text x="680" y="193" font-size="16" font-weight="650">Submit login form</text>
+<rect x="308" y="164" width="204" height="46" rx="10" fill="#ffe2bf"/><text x="410" y="193" font-size="16" font-weight="650">Verify password</text>
+<rect x="38" y="164" width="204" height="46" rx="10" fill="#ffd9d8"/><text x="140" y="193" font-size="16" font-weight="650">Show sign-in error</text>
+<rect x="308" y="254" width="204" height="46" rx="10" fill="#d5f1e1"/><text x="410" y="283" font-size="16" font-weight="650">Start PHP session</text>
+<rect x="308" y="334" width="204" height="46" rx="10" fill="#d5f1e1"/><text x="410" y="363" font-size="16" font-weight="650">Open dashboard</text>
+<rect x="308" y="414" width="204" height="46" rx="10" fill="#d9e7ff"/><text x="410" y="443" font-size="16" font-weight="650">Log out</text>
+</g></svg>

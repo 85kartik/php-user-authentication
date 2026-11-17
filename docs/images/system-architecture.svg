@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="397" viewBox="0 0 820 397" role="img" aria-label="System architecture">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#526383"/></marker></defs>
+<rect x="1" y="1" width="818" height="395" rx="20" fill="#f5f8ff" stroke="#dce4f4"/>
+<g font-family="system-ui, sans-serif" text-anchor="middle" fill="#182650"><text x="410" y="42" font-size="24" font-weight="700">System architecture</text>
+<path d="M386 128V197" fill="none" stroke="#526383" stroke-width="2" marker-end="url(#arrow)"/><text x="293" y="160" font-size="13">Form + session cookie</text>
+<path d="M434 197V128" fill="none" stroke="#526383" stroke-width="2" marker-end="url(#arrow)"/><text x="520" y="160" font-size="13">HTML or redirect</text>
+<path d="M308 222H140V323" fill="none" stroke="#526383" stroke-width="2" marker-end="url(#arrow)"/><text x="208" y="211" font-size="13">Prepared SQL</text>
+<path d="M168 323V247H308" fill="none" stroke="#526383" stroke-width="2" marker-end="url(#arrow)"/><text x="244" y="267" font-size="13">Query results</text>
+<path d="M512 222H680V323" fill="none" stroke="#526383" stroke-width="2" marker-end="url(#arrow)"/><text x="606" y="211" font-size="13">Write or destroy</text>
+<path d="M652 323V247H512" fill="none" stroke="#526383" stroke-width="2" marker-end="url(#arrow)"/><text x="584" y="267" font-size="13">Read session</text>
+<rect x="308" y="82" width="204" height="46" rx="10" fill="#d9e7ff"/><text x="410" y="111" font-size="16" font-weight="650">Browser</text>
+<rect x="308" y="197" width="204" height="46" rx="10" fill="#d9e7ff"/><text x="410" y="226" font-size="16" font-weight="650">PHP backend</text>
+<rect x="38" y="323" width="204" height="46" rx="10" fill="#ffe2bf"/><text x="140" y="352" font-size="16" font-weight="650">MySQL users table</text>
+<rect x="578" y="323" width="204" height="46" rx="10" fill="#d5f1e1"/><text x="680" y="352" font-size="16" font-weight="650">PHP session data</text>
+</g></svg>
