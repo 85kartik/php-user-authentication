@@ -1,1 +1,1 @@
-# php-user-authentication
+# PHP User Authentication System
