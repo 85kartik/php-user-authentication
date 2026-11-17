@@ -19,7 +19,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (strlen($email) <= 254 && filter_var($email, FILTER_VALIDATE_EMAIL) && strlen($password) <= 72) {
         try {
-            $statement = database()->prepare('SELECT id, name, email, password FROM users WHERE email = ?');
+            $connection = database();
+            $statement = $connection->prepare('SELECT id, name, email, password FROM users WHERE email = ?');
             $statement->bind_param('s', $email);
             $statement->execute();
             $user = $statement->get_result()->fetch_assoc();

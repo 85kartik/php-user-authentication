@@ -25,7 +25,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
         try {
             $hash = password_hash($password, PASSWORD_DEFAULT);
-            $statement = database()->prepare('INSERT INTO users (name, email, password) VALUES (?, ?, ?)');
+            $connection = database();
+            $statement = $connection->prepare('INSERT INTO users (name, email, password) VALUES (?, ?, ?)');
             $statement->bind_param('sss', $name, $email, $hash);
             $statement->execute();
             $_SESSION['notice'] = 'Your account is ready. You can now sign in.';
